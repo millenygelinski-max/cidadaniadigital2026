@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA: O Impacto dos Deepfakes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Cidadania Digital e Inteligência Artificial</h1>
+            <p>O Impacto dos Deepfakes e da Desinformação na Sociedade. Um guia de conscientização para a comunidade escolar.</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="introducao">
+            <h2>O que está acontecendo?</h2>
+            <p>A Inteligência Artificial avançou incrivelmente, trazendo muitas ferramentas úteis. No entanto, ela também facilitou a criação de <strong>deepfakes</strong> (vídeos, áudios ou fotos falsas que parecem perfeitamente reais) e a rápida propagação de <strong>notícias falsas</strong>. Ser um cidadão digital significa aprender a navegar nesse novo cenário com responsabilidade e senso crítico.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Calculadora de Confiabilidade</h2>
+            <p>Recebeu uma notícia ou vídeo suspeito? Marque as opções abaixo para avaliar o risco:</p>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="check-fonte"> A notícia veio de um site desconhecido ou rede social (não oficial).</label>
+                <label><input type="checkbox" id="check-emocao"> O título é muito apelativo ou tenta causar pânico/revolta.</label>
+                <label><input type="checkbox" id="check-rosto"> O rosto da pessoa no vídeo parece meio borrado ou não pisca direito.</label>
+                <label><input type="checkbox" id="check-audio"> A voz parece robótica ou fora de sincronia com a boca.</label>
+            </div>
+            <button id="btn-analisar">Analisar Mídia</button>
+            <div id="resultado-analise" class="resultado"></div>
+        </section>
+
+        <section id="como-identificar">
+            <h2>Como Identificar Mídias Manipuladas por IA</h2>
+            <div class="alerta">
+                <strong>Atenção:</strong> Os deepfakes estão cada vez mais realistas, mas a IA ainda comete pequenos erros. Fique atento aos detalhes!
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>👁️ Olhar e Piscadas</h3>
+                    <p>Muitas vezes, rostos criados por IA piscam de forma artificial, irregular ou simplesmente não piscam. Os olhos também podem parecer sem brilho.</p>
+                </div>
+                <div class="card">
+                    <h3>👂 Falhas nos Detalhes</h3>
+                    <p>Preste atenção nas orelhas, brincos (que podem não combinar), dentes muito perfeitos ou borrados, e fios de cabelo estranhos.</p>
+                </div>
+                <div class="card">
+                    <h3>🗣️ Descompasso de Áudio</h3>
+                    <p>Em vídeos, observe se o movimento dos lábios está perfeitamente sincronizado com o som da voz. Vozes sem entonação emocional são suspeitas.</p>
+                </div>
+                <div class="card">
+                    <h3>🖼️ Fundo da Imagem</h3>
+                    <p>Cenários distorcidos, linhas retas que se curvam (como paredes ou janelas) e fundos excessivamente borrados são sinais de manipulação.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="boas-praticas">
+            <h2>Boas Práticas de Segurança e Cidadania Digital</h2>
+            <p>Para proteger a si mesmo e aos seus colegas no ambiente escolar, siga o guia dos especialistas:</p>
+            <ul class="lista-praticas">
+                <li><strong>Não compartilhe por impulso:</strong> Viu algo chocante? Respire fundo e investigue antes de mandar no grupo da escola.</li>
+                <li><strong>Verifique a fonte:</strong> A notícia saiu em portais de jornalismo confiáveis ou veio de um perfil anónimo? Pesquise no Google.</li>
+                <li><strong>Use o "Fato ou Fake":</strong> Utilize agências de checagem conhecidas para confirmar se aquela informação já foi desmentida.</li>
+                <li><strong>Proteja seus dados:</strong> Evite postar fotos com o uniforme da escola, dados pessoais ou localização em tempo real.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto de Conscientização Escolar: Cidadania Digital</p>
+        <p>Desenvolvido para fins educativos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
