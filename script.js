@@ -88,7 +88,7 @@ function nextQuestion() {
         loadQuestion();
     } else {
         document.getElementById("quiz-box").innerHTML = `
-            <h4 style="color: var(--success); text-align: center; font-size: 1.3rem;">¡Quiz Concluído!</h4>
+            <h4 style="color: var(--success); text-align: center; font-size: 1.3rem; margin-bottom: 1rem;">¡Quiz Concluído!</h4>
             <p style="text-align: center; margin-top: 1rem;">Parabéns por exercitar sua Cidadania Digital. Compartilhe esse conhecimento com seus amigos!</p>
             <button class="quiz-btn" onclick="resetQuiz()">Refazer Quiz</button>
         `;
